@@ -10,6 +10,8 @@ type ConfigVars struct {
 	JwtSecret    string        `mapstructure:"JWT_SECRET"`
 	JwtExpiresIn time.Duration `mapstructure:"JWT_EXPIRED_IN"`
 	JwtMaxAge    int           `mapstructure:"JWT_MAXAGE"`
+	Email        string        `mapstructure:"EMAIL"`
+	AppPassword  string        `mapstructure:"APP_PASSWORD"`
 }
 
 func LoadConfig(path string) (config ConfigVars, err error) {
