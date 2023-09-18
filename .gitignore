@@ -1,0 +1,7 @@
+.git
+
+go.mod
+go.sum
+app.env
+emailservice.db
+
