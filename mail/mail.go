@@ -35,7 +35,7 @@ func AddRouter(path string, api fiber.Router) {
 
 func (m Mail) Send() {
 
-	password := "ygfkevwteeqxtgsm"
+	password := ""
 	fmt.Printf("Username: %s Password: %s\n", m.Template.Sender, password)
 
 	addr := "smtp.gmail.com:587"
